@@ -16,7 +16,7 @@ elif user_action == "rock":
         print("Rock smashes scissors! You win!")
     else:
         print("Paper covers rock! You lose.")
-elif user_action == "paper":
+elif user_action == "paper":                    # BUG 1 --> ai_action == 'rock':
     if ai_action == "paper":
         print("Paper covers rock! You win!")
     else:
