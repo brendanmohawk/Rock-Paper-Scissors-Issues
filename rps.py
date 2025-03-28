@@ -25,4 +25,4 @@ elif user_action == "scissors":
     if ai_action == "paper":
         print("Scissors cuts paper! You win!")
     else:
-        print("Rock smashes scissors! You lose.")
+        print("Rock smashes scissors! You lose.")                # Misleading
