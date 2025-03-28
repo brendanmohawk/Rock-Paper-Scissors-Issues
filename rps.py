@@ -26,3 +26,22 @@ elif user_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")                # Misleading
+
+
+
+
+
+# Loop Logic
+# while True:
+#     user_action = input("Enter throw (rock, paper, scissors) or 'quit' to exit: ").lower()
+# if user_action == "quit":
+#     print("Thanks for playing!" Bye!")
+#     break
+# while user_action not in ["rock", "paper", "scissors"]:
+#     user_action = input("Invalid Choice! Please enter 'rock', 'paper', or 'scissors', or 'quit' to exit.)
+#     if user_action == "quit":
+#         print("Thanks for playing!" Bye!")
+#         break
+# if user_action == "quit":
+#     break
+
